@@ -1,0 +1,67 @@
+.dishTypeLogo {
+  height: 40px;
+  width: 40px;
+  margin-right: 12px;
+}
+.listType {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.listTMenu {
+  list-style-type: none;
+  border-style: solid;
+  border-color: #596767;
+  padding: 10px;
+}
+.dishImage {
+  height: 120px;
+  width: 120px;
+}
+.calories {
+  color: orange;
+  font-weight: bold;
+  font-size: 20px;
+  margin-right: 60px;
+}
+.dishName {
+  font-weight: bold;
+  margin-top: 0px;
+}
+.dishDescription {
+  color: #cdd0d0;
+  font-size: 20px;
+}
+.dishCurrency {
+  color: #8b8f90;
+  font-size: 25px;
+  font-weight: bold;
+}
+.section1 {
+  display: flex;
+}
+.container {
+  display: flex;
+}
+.buttonContainer {
+  background-color: green;
+  height: 40px;
+  width: 120px;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  border-radius: 20px;
+}
+.counter {
+  color: white;
+  margin-top: 0px;
+}
+.buttonapply {
+  color: white;
+  background-color: transparent;
+  border-radius: 0px;
+  border-width: 0px;
+  height: 30px;
+  width: 30px;
+}

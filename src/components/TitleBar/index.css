@@ -1,0 +1,41 @@
+body {
+  padding-right: 15px;
+}
+.titleOfCafe {
+  font-family: 'Roboto';
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+.cartContainer {
+  display: flex;
+}
+.cartDescribtion {
+  display: none;
+}
+@media (min-width: 576px) {
+  .cartDescribtion {
+    margin-right: 15px;
+    display: block;
+    font-weight: bold;
+  }
+}
+.cartReader {
+  background-color: red;
+  border-radius: 15px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  position: relative;
+  left: 20px;
+  color: white;
+  font-family: 'Roboto';
+  bottom: 5px;
+}
+.iconContainer {
+  position: absolute;
+}

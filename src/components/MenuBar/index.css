@@ -1,0 +1,20 @@
+.activecolorlistmenu {
+  color: red;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 10px;
+}
+.listmenu {
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 10px;
+}
+.unordermenu {
+  list-style-type: none;
+  display: flex;
+}
+.activecolor2menu {
+  background-color: red;
+  height: 2.5px;
+  border-width: 0px;
+}
